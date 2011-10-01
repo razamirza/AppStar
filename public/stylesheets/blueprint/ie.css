@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color:#000000;
+	font-family: Calibri, Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+
+a{
+	color:blue;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover{
+	background-color:#000000;
+	color:#FFF;
+}
+
+h1{
+	font-size:13px;
+	color:#999;
+	font-variant:small-caps;
+}
+
+p{
+	font-size:12px;
+	margin-top:-5px;
+}
+
+#container{
+    width:800px;
+	height:615px;
+	background-color:#FFFFFF;
+	text-align:left;	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	border:5px solid #FFFFFF;
+	border-radius:2em;
+}
+
+#header{
+	clear:both;
+	margin-top:25px;
+	background-color:#CCC;
+}
+
+#company_name{
+	font-size:275%;
+	font-family:"SketchFlow Print", Calibri, Times New Roman, Georgia, Serif;
+	font-weight:bold
+}
+
+#company_logo{
+	margin-left:35px;
+	float:left;
+}
+
+#company_description{
+	width:430px;
+	margin-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	float:right;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+
+#footer{
+	clear:both;
+	background-color:#CCC;	
+}
+
+.floatright{
+	color:#666;
+	font-size:18px;
+	text-align:center;
+}
